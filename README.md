@@ -1,4 +1,4 @@
 # Django-Blog-App
 My first Django application
 
-Please refer to 
+Please refer to stepbystep.ipynb
