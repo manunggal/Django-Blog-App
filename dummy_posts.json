@@ -1,0 +1,102 @@
+[
+    {
+        "title": "First post",
+        "content": "This is the content of the first post.",
+        "user_id": 3
+    },
+    {
+        "title": "Second post",
+        "content": "This is the content of the second post.",
+        "user_id": 1
+    },
+    {
+        "title": "Third post",
+        "content": "This is the content of the third post.",
+        "user_id": 4
+    },
+    {
+        "title": "Fourth post",
+        "content": "This is the content of the fourth post.",
+        "user_id": 2
+    },
+    {
+        "title": "Fifth post",
+        "content": "This is the content of the fifth post.",
+        "user_id": 5
+    },
+    {
+        "title": "Sixth post",
+        "content": "This is the content of the sixth post.",
+        "user_id": 3
+    },
+    {
+        "title": "Seventh post",
+        "content": "This is the content of the seventh post.",
+        "user_id": 1
+    },
+    {
+        "title": "Eighth post",
+        "content": "This is the content of the eighth post.",
+        "user_id": 4
+    },
+    {
+        "title": "Ninth post",
+        "content": "This is the content of the ninth post.",
+        "user_id": 2
+    },
+    {
+        "title": "Tenth post",
+        "content": "This is the content of the tenth post.",
+        "user_id": 5
+    },
+    {
+        "title": "Eleventh post",
+        "content": "This is the content of the eleventh post.",
+        "user_id": 3
+    },
+    {
+        "title": "Twelfth post",
+        "content": "This is the content of the twelfth post.",
+        "user_id": 1
+    },
+    {
+        "title": "Thirteenth post",
+        "content": "This is the content of the thirteenth post.",
+        "user_id": 4
+    },
+    {
+        "title": "Fourteenth post",
+        "content": "This is the content of the fourteenth post.",
+        "user_id": 2
+    },
+    {
+        "title": "Fifteenth post",
+        "content": "This is the content of the fifteenth post.",
+        "user_id": 5
+    },
+    {
+        "title": "Sixteenth post",
+        "content": "This is the content of the sixteenth post.",
+        "user_id": 3
+    },
+    {
+        "title": "Seventeenth post",
+        "content": "This is the content of the seventeenth post.",
+        "user_id": 1
+    },
+    {
+        "title": "Eighteenth post",
+        "content": "This is the content of the eighteenth post.",
+        "user_id": 4
+    },
+    {
+        "title": "Nineteenth post",
+        "content": "This is the content of the nineteenth post.",
+        "user_id": 2
+    },
+    {
+        "title": "Twentieth post",
+        "content": "This is the content of the twentieth post.",
+        "user_id": 5
+    }
+]

@@ -12,7 +12,9 @@ from django.views.generic import (
     DeleteView
 )
 
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404 # --> get_object_or_404 is used to get the object or return 404 if it doesn't exist
+from django.contrib.auth.models import User # --> User is the default user model
+
 from .models import Post # . before models indicates that models is in the same directory as views.py
 # from django.http import HttpResponse --> removed, since we're using render now
 
@@ -34,6 +36,18 @@ class PostListView(ListView):
     template_name = 'blog/home.html' # <app>/<model>_<viewtype>.html --> default template name
     context_object_name = 'posts' # default context_object_name is object_list
     ordering = ['-date_posted'] # - sign indicates that the newest post is on top
+    paginate_by = 4 # number of posts per page
+
+class UserPostListView(ListView):
+    model = Post
+    template_name = 'blog/user_posts.html' # 
+    context_object_name = 'posts' # default context_object_name is object_list
+    paginate_by = 4 # number of posts per page
+
+    def get_queryset(self):
+        user = get_object_or_404(User, username=self.kwargs.get('username')) # get the user from the url
+        return Post.objects.filter(author=user).order_by('-date_posted') # - sign indicates that the newest post is on top
+
 
 class PostDetailView(DetailView):
     model = Post
